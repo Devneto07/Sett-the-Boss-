@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/habilidades.css">
+    <link rel="icon" href="./img/Icon do topo.webp" type="image">
+    <script src="./Js/menu.js" defer></script> 
+    <title>The Sett</title>
+</head>
+<body>
+
+    <div class="topo">
+        <h2>Sett The Boss</h2>
+    </div>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="./img/sett chibi.png" alt="">
+            </div>
+           <div class="menu">
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./historia.html">História</a></li>
+                    <li><a class="active" href="./habilidades.html">Habilidades</a></li>
+                    <li><a href="./builds.html">Builds e Dicas</a></li>
+                    <li><a href="./skins.html">Galeria de Skins</a></li>
+            </ul>
+            </div> 
+            <div class="login-button">
+                <button><a href="./login.html" target="_blank">Login</a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./img/menu.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li id="nav-item"><a href="./index.html">Início</a></li>
+                <li id="nav-item"><a href="./historia.html">História</a></li>
+                <li id="nav-item"><a class="active" href="./habilidades.html">Habilidades</a></li>
+                <li id="nav-item"><a href="./builds.html">Builds e Dicas</a></li>
+                <li id="nav-item"><a href="./skins.html">Galeria de Skins</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="./login.html" target="_blank">Login</a></button>
+            </div>
+        </div>
+
+    </header>
+
+   <div class="habilidades">
+    <div class="grade">
+        <div class="cartao">
+            <img src="./img/Sett_P.png" alt="Ícone Ousadia da Arena" class="icone">
+            <h3>Ousadia da Arena</h3>
+            <p>Os ataques básicos de Sett alternam entre socos de direita e esquerda. 
+            Socos de direita são levemente mais fortes e rápidos. Como Sett odeia perder, 
+            recebe Regeneração de Vida adicional com base na Vida perdida.</p>
+            <video src="./video/passiva.mp4" autoplay loop muted class="preview"></video>
+        </div>
+
+        <div class="cartao">
+            <img src="./img/SettQ.png" alt="Ícone Pancadaria" class="icone">
+            <h3>Pancadaria</h3>
+            <p>Os próximos dois ataques de Sett causam dano adicional com base na Vida
+            máxima do alvo. Ele também recebe Velocidade de Movimento enquanto se move 
+            em direção a Campeões inimigos.</p>
+            <video src="./video/Q.mp4" autoplay loop muted class="preview"></video>
+        </div>
+
+        <div class="cartao">
+            <img src="./img/SettW.png" alt="Ícone Casca-Grossa" class="icone">
+            <h3>Casca-Grossa</h3>
+            <p>O dano que Sett sofre é armazenado passivamente como Ousadia. Ao conjurar
+            a habilidade, Sett consome toda a Ousadia armazenada em troca de um escudo e 
+            desfere um soco em uma área, causando Dano Verdadeiro no centro e Dano Físico
+            nas laterais.</p>
+            <video src="./video/W.mp4" autoplay loop muted class="preview"></video>
+        </div>
+
+        <div class="cartao">
+            <img src="./img/SettE.png" alt="Ícone Quebra Crânio" class="icone">
+            <h3>Quebra Crânio</h3>
+            <p>Sett puxa todos os inimigos de cada lado seu, causando dano e atordoando.
+            Caso haja inimigos somente de um lado, eles sofrem redução de velocidade em vez de atordoamento.</p>
+            <video src="./video/E.mp4" autoplay loop muted class="preview"></video>
+        </div>
+
+        <div class="cartao">
+            <img src="./img/SettR.png" alt="Ícone Hora do Show" class="icone">
+            <h3>Hora do Show</h3>
+            <p>Sett carrega um Campeão inimigo pelos ares e o arremessa no chão, causando 
+            dano e redução de velocidade a todos os inimigos que estiverem próximos ao local de aterrissagem.</p>
+            <video src="./video/R.mp4" autoplay loop muted class="preview"></video>
+        </div>
+    </div>
+</div>
+<div class="tabela">
+    <table>
+        <h3>Ordem das Habilidades</h3>
+        <tr id="cabeca">
+            <td><img src="./img/Sett_P.png" alt=""></td>
+            <td>Level 1</td>
+            <td>Level 2</td>
+            <td>Level 3</td>
+            <td>Level 4</td>
+            <td>Level 5</td>
+            <td>Level 6</td>
+            <td>Level 7</td>
+            <td>Level 8</td>
+            <td>Level 9</td>
+            <td>Level 10</td>
+            <td>Level 11</td>
+            <td>Level 12</td>
+            <td>Level 13</td>
+            <td>Level 14</td>
+            <td>Level 15</td>
+            <td>Level 16</td>
+            <td>Level 17</td>
+            <td>Level 18</td>
+        </tr>
+        <tr>
+            <td><img src="./img/SettQ.png" alt=""></td>
+            <td id="marca">Q</td>
+            <td></td>
+            <td></td>
+            <td id="marca">Q</td>
+            <td id="marca">Q</td>
+            <td></td>
+            <td id="marca">Q</td>
+            <td></td>
+            <td id="marca">Q</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="./img/SettW.png" alt=""></td>
+            <td></td>
+            <td id="marca">W</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="marca">W</td>
+            <td></td>
+            <td id="marca">W</td>
+            <td id="marca">W</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><img src="./img/SettE.png" alt=""></td>
+            <td></td>
+            <td></td>
+            <td id="marca">E</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="marca">E</td>
+            <td id="marca">E</td>
+            <td></td>
+            <td id="marca">E</td>
+            <td id="marca">E</td>
+        </tr>
+        <tr>
+            <td><img src="./img/SettR.png" alt=""></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="marca">R</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="marca">R</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="marca">R</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+<footer class="footer">
+    <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank" class="social-icon">
+            <img src="./img/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" class="social-icon">
+            <img src="./img/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com" target="_blank" class="social-icon">
+            <img src="./img/Twitter-X.png" alt="Twitter">
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+            <img src="./img/linkedin.png" alt="LinkedIn">
+        </a>
+    </div>
+    <div class="footer-text">
+        <p>&copy; 2025 Todos os direitos reservados.</p>
+    </div>
+</div>
+</footer>
+</body>
